@@ -1,17 +1,22 @@
-# Part-2
-This program is a recipe management tool that allows users to create, save &amp; view recipes
-Ensure you have the latest version of the .NET SDK installed on your system. You can download it from the official .NET website: https://dotnet.microsoft.com/download
+This Recipe Manager software allows users to create, save & manage recipes easily. 
+Follow the steps below to use the software:
 
-Clone or download the source code from the repository.
+How to Compile and Run:
+Ensure you have Microsoft Visual Studio installed on your system.
+Open Microsoft Visual Studio.
+Create a new C# console application project.
+Copy and paste the provided code into the Program.cs file of your project.
+Build and run the application.
 
-Open a terminal or command prompt and navigate to the directory containing the source code.
+Using the Software:
+When prompted, choose option 1 to enter a new recipe.
 
-Run the following command to compile the software:
-After successful compilation, navigate to the directory containing the compiled executable file.
+Enter the name of the recipe and follow the on-screen instructions to input ingredients & steps.
 
-Run the following command to start the software:
-Follow the on-screen instructions to interact with the software. You can enter new recipes, display saved recipes, and perform other operations as described in the user interface.
+After entering the recipe details, the software will display the total calories for the recipe.
 
-To exit the software, select the appropriate option when prompted or press Ctrl + C in the terminal/command prompt.
+If the total calories exceed 300, the software will notify you.
 
-Note: Ensure you have the necessary permissions to compile and run the software on your system. If you encounter any issues during compilation or execution, refer to the documentation or seek assistance from the software developers
+You can choose option 2 to display all saved recipes, sorted alphabetically.
+
+To exit the program, choose option 3.
